@@ -7,15 +7,15 @@ import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 const Header = () => {
   return (
     <header className={classes.header}>
-        <a href="https://github.com/itsharsh2001" target="_blank">
+        <a href="https://github.com/itsharsh2001">
           <GitHubIcon className={classes.icon} />
           Github
         </a>
-        <a href="#">
+        <a href="https://github.com/itsharsh2001">
           <TextSnippetIcon className={classes.icon} />
           Docs
         </a>
-        <a href="#" className={classes.lastspan}>
+        <a href="https://github.com/itsharsh2001" className={classes.lastspan}>
           <ExitToAppIcon className={classes.icon} />
           SignIn
         </a>
