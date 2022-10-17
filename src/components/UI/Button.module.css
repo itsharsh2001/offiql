@@ -1,0 +1,20 @@
+.button{
+    background: #0070E7;
+    border-radius: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.5s ease 0s;
+}
+
+.button:hover,
+.button:active{
+    transform: scale(1.1);
+}

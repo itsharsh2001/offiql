@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    /* height: 5vh; */
+    height: 41px;
+    background: #171A21;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #E0ECFF;
+    width: 11%;
+    height: 80%;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.header a{
+    text-decoration: none;
+    
+}
+
+.header span:hover,
+.header span:active{
+    transform: scale(1.1);
+}
+
+.icon{
+    margin-right: 5px;
+    color: #E0ECFF;
+}
+
+.lastspan{
+    border-left: 3px solid #363A44;
+}
